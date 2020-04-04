@@ -36,8 +36,10 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
+#    a = Node(2, Node(4, Node(3)))
     a, a.next, a.next.next = ListNode(2), ListNode(4), ListNode(3)
-    b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4)
+    # b, b.next, b.next.next = ListNode(5), ListNode(6), ListNode(4)
+    b, b.next = ListNode(5), ListNode(6)
     result = solution.addTwoNumbers(a, b)
     # print (result.val, result.next.val, result.next.next.val)
     print (f"{result.val} -> {result.next.val} -> {result.next.next.val}")
