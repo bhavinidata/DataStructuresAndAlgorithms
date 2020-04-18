@@ -15,7 +15,11 @@
 # ]
 
 # =============================================================
-
+# Implementation using deque:
+# Deques are a generalization of stacks and queues (the name is pronounced “deck” and is short 
+# for “double-ended queue”). Deques support thread-safe, memory efficient appends 
+# and pops from either side of the deque with approximately the same O(1) performance in 
+# either direction.
 from collections import deque
 from typing import List
 # Definition for a binary tree node.
