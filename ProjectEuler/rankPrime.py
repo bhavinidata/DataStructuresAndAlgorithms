@@ -18,7 +18,7 @@ def isPrime(num:int) -> bool:
     return chkPrime
 
 def rankPrime(n: int) -> int:
-    count = 0 #count 1 for prime number 2. 2 is first prime number
+    count = 0
     num = 0
     while count < n:
         if isPrime(num):
