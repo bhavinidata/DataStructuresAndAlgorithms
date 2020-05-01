@@ -15,6 +15,7 @@
 
 # What is the value of the first triangle number to have over five hundred divisors?
 
+# Sum of n number T(n) = n(n+1)/2. This will also give tringle number of n.
 
 import math
 def highDivisor(n:int)->int:
